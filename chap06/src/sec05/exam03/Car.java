@@ -1,0 +1,17 @@
+package sec05.exam03;
+
+public class Car {
+	
+	int speed;
+	
+	void run() {
+		System.out.println(speed + "으로 달립니ㅏ.");
+	}
+	
+	public static void main(String[] args) {
+		
+		Car car = new Car();
+		car.speed = 60;
+		car.run();
+	}
+}
